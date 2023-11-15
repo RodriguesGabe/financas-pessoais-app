@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "financasp-app",
+    "slug": "financasp-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
