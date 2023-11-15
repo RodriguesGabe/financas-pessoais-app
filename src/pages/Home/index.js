@@ -1,5 +1,4 @@
 import { StyleSheet, Text, View } from 'react-native';
-import { StatusBar } from 'expo-status-bar';
 import Header from '../../components/Headers'
 
 export default function Home() {
@@ -10,7 +9,6 @@ export default function Home() {
       <Text>Página Home</Text>
       <Text>Página Home</Text>
       <Text>Página Home</Text>
-      <StatusBar style="auto" />
     </View>
   );
 }
@@ -18,6 +16,6 @@ export default function Home() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#FFF',
   },
 });

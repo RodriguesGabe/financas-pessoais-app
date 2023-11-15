@@ -9,7 +9,7 @@ import {
 import { Feather } from '@expo/vector-icons'
 
 // vendo se está do tamanho correto para o android
-const StatusBarHeight = StatusBar.currentHeight ? statusbar.currentHeight + 22 : 64;
+const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 22 : 64;
 
 // Adicionei botão que importei do reactnative touchableOpacity
 export default function Header(){
@@ -19,7 +19,7 @@ export default function Header(){
         <Text style={styles.username}> Mina Financa </Text>
         
         <TouchableOpacity activeOpacity={0.9} style={styles.buttonUser}>
-            <Feather name="user" size={27} color={+fff}></Feather>
+            <Feather name="user" size={27} color='#FFF'> </Feather>
         </TouchableOpacity>
         </View>
         </View>
@@ -28,8 +28,8 @@ export default function Header(){
 
 const styles = StyleSheet.create({
     container:{
-        backgroundColor: '+8000ff',
-        paddingTop: StatusBarHeight,
+        backgroundColor: '#8000FF',
+        paddingTop: statusBarHeight,
     }
 })
 
