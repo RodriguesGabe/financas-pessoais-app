@@ -9,3 +9,5 @@ Aplicativo de Gerenciamento Financeiro: Criar um aplicativo que ajuda os usuári
 - Letícia Fernanda
 - Mercia
 - Mirelle
+- Thalita Miquiles
+
