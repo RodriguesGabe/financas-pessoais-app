@@ -30,7 +30,7 @@ export default function Header({name}){
 //Mudancas de estilo do app
 const styles = StyleSheet.create({
     container:{
-        backgroundColor: '#58BC82',
+        backgroundColor: '#00CED1', //outra cor boa é #BC8F8F no tom rosado
         paddingTop: statusBarHeight,
         flexDirection: 'row',
         paddingStart: 16,
